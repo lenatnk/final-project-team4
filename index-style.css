@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Spinnaker";
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.navbar.accent-color {
+  background: #289cd7;
+  color: #fff;
+}
+
+.my-heading {
+  width: 100%;
+  height: 75px;
+  background-color: #022231;
+  border-bottom: 1px solid #289CD7;
+  align-items: center;
+}
+
+.my-heading-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: #e5e5e5;
+  height: 100%;
+}
+
+.my-label {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.h-one {
+  font-size: 24px;
+}
+  
+  #prices, #other, #TCs {
+    position: relative;
+    padding: 10px;
+  }
+  
+  .welcome {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(adventurer2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align items: center;
+  }
+  
+  #welcome {
+    padding: 0px 10% 0; 
+    margin: 0px 10px 0 10px; 
+  }
+  
+  #explorer {
+    padding: 20px 10% 0; 
+    margin: 0 20px 20px 20px; 
+  }
+  
+  #other {
+    top: 20px;
+    background-color: rgba(245, 150, 182, 0.63);
+    border-radius: 20px;
+    padding: 1rem 0; 
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    justify-content: right;
+  }
+  
+  #prices {
+    background-color: rgba(245, 150, 182, 0.63);
+    border-radius: 20px;
+    padding: 10px; 
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    margin: 20px auto 0; 
+    justify-content: right;
+  }
+  
+  .container {
+    color: white;
+    padding: 50px;
+  }
+  
+  #welcome {
+    max-width: var(--max-width);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .prices-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .prices-paragraph {
+    font-size: 2rem;
+    align-items:center;
+    text-align: center;
+    color:#ffffff;
+  }
+  
+  
+  .other-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .other-paragraph {
+    font-size: 2rem;
+    align-items:center;
+    text-align: center;
+  }
+  
+  #other {
+    position: relative;
+    padding: 3rem 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  .prices__grid {
+    width: 100%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .other__card {
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    overflow: hidden;
+    border: none;
+  }
+  
+  .other__card img {
+    width: 100%;
+    max-width: 100px;
+    margin-top: 5px;
+  }
+  
+  
+  #other {
+    padding-left: 3rem;
+  }
+  
+  
+  .other__content h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #289cd7;
+  }
+  
+  .other__content p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .other__grid {
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  
+  .other__column {
+    flex: 1;
+    margin: 5px;
+  }
+  
+  .round {
+    border-radius: 20px;
+  }
+  
+  .round-top {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+  .round-bottom {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .content-explorer h3{
+    color: #022231;
+  }
+  .content-explorer p{
+    text-align: left;
+    text-size-adjust: ;
+    color: #ffffff;
+    padding: 0px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    max-width: 350px;
+    margin-bottom: 1.8rem;
+    }
+  
+  .content-explorer p span {
+      -webkit-text-stroke: 2px var(--text-dark);
+      -webkit-text-fill-color: #289cd7;
+      margin-bottom: 2%;
+    }
+  
+  
+  #prices {
+    position: relative;
+    padding: 2rem 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .bg__img__1 {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    opacity: 0.6;
+    z-index: -1;
+  }
+  
+  .content-welcome h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    --text-dark: #289cd7;
+    --text-light: #94a3b8;
+    color: var(--white);
+    padding-bottom: 0;
+  }
+  
+  .content-welcome h1 span {
+    -webkit-text-stroke: 2px var(--text-dark);
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2%;
+  }
+  
+  .content-explorer .btn {
+    padding: 0.75rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #289cd7;
+    margin-bottom: 10px;
+  }
+  
+  .content-explorer .btn:hover {
+    color: #022231;
+    background-color: #289cd7;
+  }
+  
+  .prices__grid {
+    width: 100%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .prices__card {
+    margin: 0;
+    height: 0%;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+  }
+  
+  .prices__card img {
+    height: auto;
+    max-width: 100px;
+    margin: 0;
+  }
+  
+  .card__content {
+    padding: 1rem;
+    color: #ffffff;
+  }
+  
+  .card__content h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  .card__content p {
+    border-bottom: none ;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #289cd7;
+  }
+  
+  @media (max-width: 1200px) {
+    #prices .prices__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .search {
+      display: none;
+    }
+  
+    #prices {
+      padding-left: 3rem;
+      border-radius: 30px;
+    }
+    
+    .content h1 {
+      font-size: 3rem;
+    }
+  
+    #prices .prices__grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  #prices .h4 {
+    color: #ffffff;
+  }
+  
+  @media (max-width: 767px) {
+    .grid-item {
+      text-align: center;
+    }
+  
+    #other_options .other_grid {
+      width: 80%;
+      max-width: 500px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+      justify-content: center;
+    }
+  
+    #other_options .other_grid_item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    @media (max-width: 500px) {
+      #other .other__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  
+  #TCs {
+    background-color: rgba(245, 150, 182, 0.63);
+    border-radius: 20px;
+    padding: 20px; 
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    margin: 20px auto 0; 
+    justify-content: right;
+    top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  #TCs h1 {
+    font-size: 2rem;
+    color: #022231;
+    margin-bottom: 10px;
+  }
+  
+  #TCs h4 {
+    font-size: 1.2rem;
+    color: #022231; 
+    margin-bottom: 10px;
+  }
+  
+  #TCs p {
+    color: #022231;
+  }
+  
+  #TCs h5 {
+    color: #289cd7;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .footer {
+    background: #022231;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #e5e5e5;
+    margin-right: 10px;
+  }

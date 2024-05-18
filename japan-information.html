@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Japan</title>
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Spinnaker&display=swap" rel="stylesheet" />
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+        <!-- Stylesheet of CSS -->
+        <link rel="stylesheet" href="japan-information-styles.css" />
+    </head>
+    <body>
+        <!-- Navigation part -->
+        <header class="my-heading">
+            <div class="my-heading-wrapper">
+                <div class="my-label"><h1 class="h-one">How much of an adventurer are you?</h1></div>
+            </div>
+        </header>
+
+        <nav class="accent-color navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link font" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link font active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Continents
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item active" href="kenya-information.html">Africa</a></li>
+                                <li><a class="dropdown-item" href="japan-information.html">Asia</a></li>
+                                <li><a class="dropdown-item" href="usa-information.html">USA</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#">Coming soon</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font" href="main-map.html">Map</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main part of the website -->
+        <section>
+            <div class="intro-country">
+                <div class="intro-country-wrapper">
+                    <div><h2 class="country-name">Japan</h2></div>
+                    <div><p class="country-location">Country in Northeast Asia</p></div>
+                </div>
+            </div>
+            <div class="container-country">
+                <div class="parent">
+                    <div class="one">
+                        <!-- Slideshow code starts here -->
+                        <div>
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+                                <!-- Full-width images with number and caption text -->
+                                <div class="mySlides fade">
+                                    <div class="numbertext">Tokyo</div>
+                                    <img src="tokio.jpg" class="round image-item" />
+                                    <!-- <div class="text">Caption Text</div> -->
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">Sushi</div>
+                                    <img src="sushi.jpg" class="round image-item" />
+                                    <!-- <div class="text">Caption Two</div> -->
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">Mount Fuji</div>
+                                    <img src="fuji.jpg" class="round image-item" />
+                                    <!-- <div class="text">Caption Three</div> -->
+                                </div>
+
+                                <!-- The dots/circles -->
+                                <div style="text-align: center;" class="dots-slider">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                </div>
+
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="two">
+                        <!-- Map -->
+                        <div class="google-map">
+                            <iframe
+                              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5204473.511019587!2d133.7751318!3d36.2048242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35532a0a32e8d39d%3A0x99a5d5f5208cb3e7!2sJapan!5e0!3m2!1sen!2ses!4v1713390554761!5m2!1sen!2ses"
+                              width="260"
+                              height="312"
+                              style="border: 0;"
+                              allowfullscreen=""
+                              loading="lazy"
+                              referrerpolicy="no-referrer-when-downgrade"
+                              class="round"
+                            ></iframe>
+                          </div>
+                    </div>
+
+                    <div class="three">
+                        <div class="child3 round">
+                            <div class="child31">
+                                <div><h2 class="nameFlag">Flag</h2></div>
+                                <div><img src="flag_Japan.jpg" alt="flag" width="109" /></div>
+                            </div>
+                        </div>
+                        <div class="child4 round">
+                            <div class="child41">
+                                <p class="country-special"><b>Capital:</b> Tokyo</p>
+                                <p class="country-special"><b>Population:</b> 125.7 million (2022)</p>
+                                <p class="country-special"><b>Official languages:</b> Japanese</p>
+                                <p class="country-special"><b>Currency:</b> Japanese Yen (JPY)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gap between slideshow and the rest of the content -->
+        <div class="gap"></div>
+        <hr class="horiz-line" />
+        <br />
+        <!-- The rest of the country content -->
+        <section>
+            <!-- 1 and 2 -->
+            <div class="wrapper-info">
+                <!-- 1 column -->
+                <div class="item-info">
+                    <img src="noodles-small.jpg" alt="Bowl of noodles" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">It’s good manners to slurp your noodles</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">
+                        Japan values good manners highly, but when it comes to chowing down on bowlfuls of noodles, there’s only one way to eat: noisily. Slurping is a sign of enjoyment and also cools down the noodles as you eat. Get your chopsticks in one hand and lean over your bowl. Bibs are sometimes provided for foreigners, but by the time you leave, you should be able to polish off a bowl in a white top and walk out spotless.
+                    </p>
+                </div>
+
+                <!-- 2 column -->
+                <div class="item-info">
+                    <img src="kfc-small.jpg" alt="Christmas KFC" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">The traditional Christmas Eve meal is KFC</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">
+                        Plenty of Japanese people celebrate Christmas, but the festive fare isn’t what you might expect. In Japan, it’s traditional to head to your local KFC on Christmas Eve. An estimated 3.6 million Japanese feast on the KFC Christmas Dinner and hours of queuing and ordering weeks in advance is expected. Some say turkey and chicken wasn’t widely available for the Christmas-curious Japanese, so Colonel Sanders stepped in to answer the demand…
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3 and 4 -->
+
+            <div class="wrapper-info">
+                <!-- 1 column -->
+                <div class="item-info">
+                    <img src="fuji-small.jpg" alt="Mount Fuji" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">Japan is not all about the cities</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">Japan’s big-name stars are its densely populated cities, and it’s not a country you’d think of as a scarcely populated, mountain wilderness. However, around 70% of Japan is made up of forest and mountains that aren’t suitable for farming or living in. There are over 100 active volcanoes, and its tallest mountain is the famed Mount Fuji, with its elevation of 3,776 feet.</p>
+                </div>
+
+                <!-- 2 column -->
+                <div class="item-info">
+                    <img src="rabbit-island-small.jpg" alt="Rabbit Island" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">There’s a Rabbit Island in Japan</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">
+                        Japan is made up of nearly 7,000 islands. The little island of Okunoshima in the Inland Sea is best-known for its curious, big-eared population. The island was used to test chemical weapons during World War II, and it’s said the test subjects roamed free after the war. Either way, the numbers flourished in a predator-free environment (dogs and cats are banned from entering), and today Okunoshima is a popular spot for cuddle-bunny tourists.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 5 and 6 -->
+            <div class="wrapper-info">
+                <!-- 1 column -->
+                <div class="item-info">
+                    <img src="4-small.jpg" alt="Elevator without number 4" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">The number four is extremely unlucky</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">
+                        The number four (‘shi’) is widely avoided in Japan since it sounds too similar to the Japanese word for death. Keep an eye out in Japan and you’ll notice buildings don’t have a fourth floor, items are sold in sets of three or five and special care is taken to avoid encountering the number in daily life.
+                    </p>
+                </div>
+
+                <!-- 2 column -->
+                <div class="item-info">
+                    <img src="naked-small.jpg" alt="naked festival" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">There’s a bizarre naked festival</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">
+                        Japan is well-known for its non-stop festivals, but Hadaka Matsuri must be one of the most bizarre. Thousands of Japanese men strip naked in public to secure a fortune-filled year, with the biggest matsuri taking place in Okayama, where an estimated 9,000 men get down to their fundoshi.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 7 and 8 -->
+            <div class="wrapper-info">
+                <!-- 1 column -->
+                <div class="item-info">
+                    <img src="shinkansen-small.jpg" alt="Shinkansen train" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">Japanese trains are some of the most punctual in the world</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">The average delay of Japanese trains is 18 seconds. What makes them so punctual? Drivers are trained in ultra-realistic simulators and drive one train line only – many don’t even need a speedometer to know how fast they’re going. Competition is also fierce between rail companies, so lagging behind won’t do – they work hard to keep hold of Japan’s huge numbers of train commuters, whatever it takes (even if it means building fancy department stores in the stations…).</p>
+                </div>
+
+                <!-- 2 column -->
+                <div class="item-info">
+                    <img src="kitkat-small.jpg" alt="Kit Kats in different flavours" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">The Japanese love wacky flavours</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">
+                        Eel flavoured ice cream and Green Tea Kit Kats are just two of the weird and wonderful flavours you can come across in Japan. Kit Kats are the most popular confectionary (‘Kit Kat’ sounds similar to ‘kitto katsu’, a Japanese saying meaning ‘good luck.’) You can try edamame, wasabi and ginger ale flavoured Kit Kats, too.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 9 and 10 -->
+            <div class="wrapper-info">
+                <!-- 1 column -->
+                <div class="item-info">
+                    <img src="hanko-small.jpg" alt="Different seals" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">Everyone has their own seal</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">In Japan, people don’t have signatures – they have their own seal. Known as Hanko, the seal is typically your name translated into Kanji characters, and are made from silk or plant-based paste. Adults will often have three Hankos; one for signing off letters and personal matters, a bank seal and an identity seal. They’re not necessary for tourists, but foreigners living in Japan can have one handmade in small, local shops.</p>
+                </div>
+
+                <!-- 2 column -->
+                <div class="item-info">
+                    <img src="ninja-small.jpg" alt="Ninja" width="450px" height="100px" class="item-info-image" />
+                    <h3 class="item-info-name">Anti-Ninja floors are a thing</h3>
+                    <hr class="item-info-hr" />
+                    <p class="item-info-fact">
+                        During the feudal period, wealthy Japanese lords built homes with deliberately squeaky floors (known as Nightingale Floors) as a defence measure against Ninjas. The highly trained, legendary mercenaries of feudal Japan were so steeped in myth and folklore, they were said to be capable of walking on water, turning invisible and controlling natural elements. That’s got to be motivation to put down some new flooring.</p>
+                </div>
+            </div>
+
+            <div class="source-wrapper">
+                <div class="source-container">
+                    <p>Source: https://www.rickshawtravel.co.uk/japan/blog/10-fun-facts-about-japan/</p>
+                </div>
+            </div>
+            <p class="break-bottom"></p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="fixed-bottom">
+            <div class="footer font">
+              <a href="https://twitter.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="footer-icons bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg></a>
+              <a href="https://instagram.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="footer-icons bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a>
+              <a href="https://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="footer-icons bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg></a>
+              <a>© 2024 ACE</a>
+            </div>
+          </footer>
+        <!-- End of Footer -->
+
+        <!-- Scripts -->
+        <script src="japan-information-scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

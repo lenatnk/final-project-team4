@@ -1,0 +1,50 @@
+/* ------Contact Us page styles------- */
+body {
+    margin: 0;
+    background-color: #e5e5e5;
+    color: #022231;
+    font-family: "Spinnaker", sans-serif;
+    font-size: 17px;
+}
+.form-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-style {
+    background-color: #289CD7;
+    border-radius: 20px;
+    border: 1px solid #022231;
+    padding: 50px;
+    width: 400px;
+}
+
+.field-style {
+    padding: 10px;
+}
+
+.concern {
+    width: 250px;
+    height: 200px;
+}
+
+.btn {
+    background-color: #e5e5e5;
+    color: #022231;
+    border-radius: 20px;
+    border: 1px solid #022231;
+    padding: 10px;
+    font-family: "Spinnaker", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #022231;
+    color: white;
+    cursor: pointer;
+}

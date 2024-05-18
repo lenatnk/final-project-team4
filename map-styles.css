@@ -1,0 +1,219 @@
+* {box-sizing:border-box}
+
+header {
+    background: #022231;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+body {
+  background-color: #fff;
+  color: #022231;
+  font-family: "Spinnaker", sans-serif;
+}
+
+.font {
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #022231;
+}
+
+.accent-color {
+  background: #289cd7;
+  color: #fff;
+}
+
+.accent-color:hover, .font:hover {
+  color: #022231;
+  text-decoration: none;
+}
+
+.my-heading {
+width: 100%;
+height: 75px;
+background-color: #022231;
+border-bottom: 1px solid #289cd7;
+align-items: center;
+}
+
+.my-heading-wrapper {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+color: #e5e5e5;
+height: 100%;
+}
+
+.my-label {
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.h-one {
+font-size: 24px;
+}
+
+@media all and (max-width: 800px) {
+/* Header adaptation */
+.my-label {
+    position: static;
+    order: 1;
+}
+
+.my-heading-wrapper {
+    flex-direction: column;
+}
+}
+
+.hide {
+  padding: 5px 20px 2px 20px;
+  background-color: #289cd7;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+
+.text-Japan {
+  display: none;
+  position: absolute;
+  top: 31.5%;
+  right: 5%;
+}
+
+.text-Kenya {
+  display: none;
+  position: absolute;
+  top: 53%;
+  left: 62%;
+}
+
+.text-USA {
+  display: none;
+  position: absolute;
+  top: 33%;
+  left: 29%;
+}
+
+.text-Japan.active, .text-Kenya.active, .text-USA.active {
+  display: block;
+}
+
+.map-box {
+  background-color: #fff;
+  position: relative;
+  width: 100%; 
+  height: 100%;
+}
+
+.map {
+  fill:#022231;
+  fill-opacity:1;
+  stroke:#ffffff;
+  stroke-width:0.01;
+  stroke-miterlimit:4;
+  stroke-dasharray:none;
+  stroke-opacity:1;
+  margin-top: 0px;
+}
+
+.round {
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.country-Japan:hover, .country-Kenya:hover, .country-USA:hover {
+  fill: #e5e5e5;
+  stroke:#289cd7;
+  stroke-width:3;
+  stroke-linecap:butt;
+  stroke-linejoin:round;
+  stroke-miterlimit:4;
+  stroke-dasharray:none;
+  stroke-dashoffset:0;
+  stroke-opacity:1;
+}
+
+
+
+.country-Japan.hovered,
+.country-Kenya.hovered,
+.country-USA.hovered {
+  fill: #e5e5e5;
+  stroke: #289cd7;
+  stroke-width: 3;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 1;
+}
+
+.dot {
+  opacity:1;
+  fill:#289cd7;
+  fill-opacity:1;
+  paint-order:normal;
+}
+
+
+.dot:hover {
+  stroke:#289cd7;
+  stroke-width:15;
+  stroke-linecap:butt;
+  stroke-linejoin:round;
+  stroke-miterlimit:4;
+  stroke-dasharray:none;
+  stroke-dashoffset:0;
+  stroke-opacity:0.5;
+}
+
+.marker-Japan {
+  fill:#289cd7;
+}
+
+.marker-Kenya {
+  fill:#289cd7;
+}
+
+.marker-USA {
+  fill:#289cd7;
+}
+
+/* Footer styles*/
+.footer {
+    background: #022231;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer a {
+    color: #e5e5e5;
+    margin-right: 10px;
+}
+/* Footer styles end here */
